@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+@import url("https://fonts.googleapis.com/css?family=Cabin|Pacifico");
+* {
+  margin: 0;
+  padding: 0 "";
+}
+$white: #FFFFFF;
+$black: #000000;
+$dark-blue: #3e496b;
+$yellow: #ecd641;
+$red: #ea315b;
+$light-blue:  #44b1d9;
+$dark-green:  #6c8571;
+$light-green:  #bbd1c0;
+
+
+body {
+  background: $white;
+}
+.wrap {
+  background: $light-green;
+  width: 700px;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+}
+h2 {
+  color: $dark-blue;
+  font-size: 20px;
+  font-family: "Arial", cursive;
+}
+h2,
+form {
+  background: $dark-green;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+form {
+  padding: 0;
+}
+input {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+input[type=button]{
+  margin-left: 15px;
+  width: 130px;
+  height: 30px;
+  padding: 0px;
+}
+ul.items {
+  width: 90%;
+  margin: 50px auto;
+  padding: 0;
+  float:center;
+
+  li {
+    list-style: none;
+    border-bottom: 1px solid $black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    position: relative;
+  }
+  li span {
+    font-size: 13px;
+    margin-left: 5px;
+    position: relative;
+    color: $black;
+  }
+  li span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    top: 0;
+    left: -5px;
+    border: 2px solid $black;
+    border-radius: 50%;
+  }
+}
+/*a {
+  text-decoration: none;
+  position: absolute;
+  background: #ecd641;
+  color: #3e496b;
+  font-weight: bolder;
+  right: 0;
+  padding: 3px;
+}*/
+
+.button{
+  float: right;
+}
+
+.menu{
+  width:100%;
+  padding:0;
+  overflow: auto;
+  li{
+    list-style:none;
+  }
+  a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    width:27%;
+    float:left;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 2px solid $light-green;
+    &:hover{
+      background: $dark-green;
+      color:white;
+    }
+  }
+}
