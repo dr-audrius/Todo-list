@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const ItemsComponent=({items, all, done, action, addItem, changeItem, removeItem, inputRef})=> {
+const ItemsComponent=({items, all, done, action, addItem, changeItem, removeItem, inputRef, authenticated})=> {
 			let lis = []
       let mark;
       let status;
@@ -16,7 +16,7 @@ const ItemsComponent=({items, all, done, action, addItem, changeItem, removeItem
           status = done
         }
           
-          mark = done === false ? '\u2713' : 'x';
+          mark = status === false ? '\u2713' : 'x';
           if(items[i].completed === status){ //all 
             lis.push(<li key={i}>{items[i].item} 
               <span>{mark}</span>
@@ -25,7 +25,8 @@ const ItemsComponent=({items, all, done, action, addItem, changeItem, removeItem
               </li>)
         }
         }
-      
+            
+    if(!authenticated) {return null}    
     return (
       <div>
         {done

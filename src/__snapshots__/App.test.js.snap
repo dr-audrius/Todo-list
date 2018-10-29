@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render matches snapshot 1`] = `
+<h3>
+  Loading
+</h3>
+`;
+
+exports[`shallow matches snapshot 1`] = `
+<h3>
+  Loading
+</h3>
+`;

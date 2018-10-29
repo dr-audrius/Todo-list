@@ -31,10 +31,6 @@ form {
   text-align: center;
 }
 
-form {
-  padding: 0;
-}
-
 input {
   border: none;
   padding-top: 15px;
@@ -94,10 +90,6 @@ ul.items li span:after {
   right: 0;
   padding: 3px;
 }*/
-.button {
-  float: right;
-}
-
 .menu {
   width: 100%;
   padding: 0;
@@ -120,6 +112,61 @@ ul.items li span:after {
 .menu a:hover {
   background: #6c8571;
   color: white;
+}
+
+.auth {
+  margin: auto;
+}
+.auth .facebook {
+  background: #4B64B1;
+  color: white;
+  width: 90%;
+  margin: 30px auto auto auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.auth form {
+  margin-top: 30px;
+  text-align: left;
+  width: 90%;
+}
+.auth, .auth form {
+  background: #6c8571;
+}
+.auth input {
+  width: 100%;
+  margin-top: 5px;
+}
+.auth input[type=submit] {
+  margin: 0;
+  background: #cccccc;
+  padding: 20px 0;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+.auth input[type=register] {
+  margin: 0;
+  background: #cccccc;
+  padding: 20px 0;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+.auth label {
+  display: block;
+  margin-top: 10px;
+}
+
+.logOut {
+  text-decoration: none;
+  position: absolute;
+  background: #bbd1c0;
+  color: #3E496B;
+  font-weight: bolder;
+  right: 0;
+  top: 0;
+  padding: 3px;
 }
 
 /*# sourceMappingURL=App.css.map */
