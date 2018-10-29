@@ -1,8 +1,8 @@
 TODO application with CRUD functionality
 
-#Install npm i
+#Install -  npm i
 
-#Run at localhost://3000 npm start
+#Run - npm start (localhost://3000)
 
 #App is deployed to Firebase server as well at: https://todo-1a684.firebaseapp.com
 
