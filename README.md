@@ -1,5 +1,7 @@
 TODO application with CRUD functionality
 
+Redux branch
+
 #Install npm i
 
 #Run at localhost://3000 npm start
@@ -34,3 +36,5 @@ Project requisites:
         Project directory should be logically structured
         Source code should be clean and formatted accordingly
         Extensive comments in source code are not desirable, source code should be self explanatory
+
+        
